@@ -1,0 +1,76 @@
+ body {
+   background-color: bisque;
+ }
+
+ .main {
+   background-color: azure;
+   border-radius: 0px 20px 20px 0px;
+   border-width: 5%;
+   padding: 10px;
+   width: 100%;
+   margin: auto;
+   height: 5%;
+ }
+
+ .imgbody {
+   margin: auto;
+   width: 30%;
+   padding: 50px;
+   display: flex;
+   align-items: center;
+   gap: none;
+
+ }
+
+ img {
+   border-radius: 20px 0px 0px 20px;
+   width: 100%;
+   margin: auto;
+
+
+ }
+
+ h4 {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+ h1 {
+   font-family: "Fraunces", serif;
+   font-optical-sizing: auto;
+   font-weight: 700;
+   font-style: normal;
+   font-size: 40px
+ }
+
+ p {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 2;
+ }
+
+ button {
+   border-radius: 3px;
+   padding: 12px;
+   color: aliceblue;
+   background-color: green;
+   text-align: center;
+   cursor: pointer;
+   width: 50%;
+   font-size: 18px;
+ }
+
+ .cost {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+
+ }
+
+ .discount {
+   text-decoration: line-through;
+ }
